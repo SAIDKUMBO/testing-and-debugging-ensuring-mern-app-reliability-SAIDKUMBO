@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Cypress test artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+# Token fixture created by E2E orchestrator
+cypress/fixtures/token.json
+
+# Environment files (do NOT ignore env.example)
+.env
+.env.local
+.env.*.local
+
+# Build / distribution
+dist/
+build/
+
+# Editor directories and project files
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+
+# Optional DB files
+*.db
+
